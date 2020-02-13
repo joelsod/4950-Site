@@ -1,0 +1,74 @@
+/* css sheet */
+
+
+header {
+  background-color: black;
+  color: white;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  margin-top: 120px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  margin: 10px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+h3 {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0px;
+  text-align: left;
+}
+
+video {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding-inline-start: 0px;
+}
+
+img {
+  display: block;
+}
+
+.links {
+  padding: 20px;
+  margin: 0px;
+  text-align: left;
+  display: inline-grid;
+  height: 200 auto;
+}
+
+.sHeader {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  padding-left: 10px;
+  top: 0px;
+}
+
+footer {
+  background-color: black;
+  padding: 0px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
