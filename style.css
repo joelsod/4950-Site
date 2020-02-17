@@ -64,8 +64,10 @@ img {
 }
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   background-color: black;
-  padding: 0px;
   color: white;
   text-align: center;
   width: 100%;
