@@ -47,6 +47,13 @@ img {
   display: block;
 }
 
+
+A.class1 {color:white;}
+A.class1:link  {text-decoration: none; color: white;}
+A.class1:visited {text-decoration: none; color: white;}
+A.class1:hover {text-decoration: underline; color: white;}
+A.class1:active {text-decoration: none; color: white;}
+
 .links {
   padding: 20px;
   margin: 0px;
