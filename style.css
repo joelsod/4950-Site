@@ -29,8 +29,7 @@ h2 {
 h3 {
   width: 100%;
   margin: 0 auto;
-  padding-left: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 video {
@@ -43,11 +42,6 @@ ul {
   padding-inline-start: 0px;
 }
 
-img {
-  display: block;
-}
-
-
 A.class1 {color:white;}
 A.class1:link  {text-decoration: none; color: white;}
 A.class1:visited {text-decoration: none; color: white;}
@@ -57,16 +51,26 @@ A.class1:active {text-decoration: none; color: white;}
 .links {
   padding: 20px;
   margin: 0px;
-  text-align: left;
   display: inline-grid;
   height: 200 auto;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.desc {
+  padding: 20px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .sHeader {
   background-color: black;
   color: white;
-  margin: 10px;
-  padding-left: 10px;
   top: 0px;
 }
 
